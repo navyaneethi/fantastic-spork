@@ -26,6 +26,7 @@ console.log(isEvenMessage)
 
 console.log('4'+ 4) //44
 console.log('4' - '4')
+console.log ('4'+undefined) //4undefined
 
 console.log('Bruce' - 'Wayne') //NaN Not a Number
 console.log(typeof NaN) //number
@@ -36,3 +37,7 @@ console.log(Number('5')) //5
 console.log(Number(false)) //0
 console.log(Number(true)) //1
 console.log(Number('Vishwas')) //NaN
+
+console.log(parseInt('5')) //'5'
+console.log(Boolean(0)) //false
+console.log(Boolean(-1))
