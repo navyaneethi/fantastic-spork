@@ -1,2 +1,2 @@
 # fantastic-spork
-Learn Full Stack Web Development. 
+My Web Development Journey. 
