@@ -12,3 +12,12 @@ const var5 = null;
 const var6 = undefined;
 console.log(var5 == var6); //true
 console.log(var5 === var6);//false
+
+let letter = "A";
+console.log(letter.charCodeAt(0));
+
+let symbol = "!";
+console.log(symbol.charCodeAt(0));  // 33
+
+let char = String.fromCharCode(66);
+console.log(char);  // "B"
