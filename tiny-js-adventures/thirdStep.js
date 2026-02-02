@@ -21,3 +21,18 @@ console.log(symbol.charCodeAt(0));  // 33
 
 let char = String.fromCharCode(66);
 console.log(char);  // "B"
+
+let phrase = "JavaScript is awesome!";
+let result = phrase.includes("awesome");
+
+console.log(result);  // true
+
+let message = "Hello, world!";
+let greeting = message.slice(0, 5);
+
+console.log(greeting);  // Hello
+
+let message1 = "Hello, world!";
+let world = message.slice(7);
+
+console.log(world);  // world!
