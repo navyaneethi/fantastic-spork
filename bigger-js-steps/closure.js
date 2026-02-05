@@ -1,42 +1,42 @@
-// let a = 10
-// function outer(){
-//     let b = 20
-//     function inner(){
-//         let c = 30
-//         console.log(a,b,c)
-//     }
-//     inner()
-// } 
+let a = 10
+function outer(){
+    let b = 20
+    function inner(){
+        let c = 30
+        console.log(a,b,c)
+    }
+    inner()
+} 
 
-// outer()
+outer()
 
 //closure
 // A closure is a function that remembers and accesses variables from its 
 // outer scope even after the outer function has finished executing.
-// function outerClosure(){
-//     let counter = 0
-//     function innerClosure(){
-//         counter++
-//         console.log(counter)
-//     } innerClosure()
-// }
-// outerClosure()
-// outerClosure()
-// outerClosure()
+function outerClosure(){
+    let counter = 0
+    function innerClosure(){
+        counter++
+        console.log(counter)
+    } innerClosure()
+}
+outerClosure()
+outerClosure()
+outerClosure()
 
-// function outerClosure2(){
-//     let counter = 0
-//     function innerClosure2(){
-//         counter++
-//         console.log(counter)
-//     }
-//     return innerClosure2
-// }
+function outerClosure2(){
+    let counter = 0
+    function innerClosure2(){
+        counter++
+        console.log(counter)
+    }
+    return innerClosure2
+}
 
-// let fn = outerClosure2()
-// fn()
-// fn()
-// fn()
+let fn = outerClosure2()
+fn()
+fn()
+fn()
 
 //Function Currying
 //Currying is a functional programming technique that transforms a function 
